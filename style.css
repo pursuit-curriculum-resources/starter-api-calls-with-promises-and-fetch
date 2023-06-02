@@ -63,7 +63,7 @@ form button {
   border-radius: 5px;
   color: #fffafb;
   font-family: "Roboto", sans-serif;
-  font-size: 15pxpx;
+  font-size: 15px;
   padding: 10px;
 }
 
@@ -71,6 +71,7 @@ form button {
   border: 3px solid #ff595e;
   margin-top: 25px;
   padding: 25px;
+  display: none;
 }
 
 .error .message {
@@ -94,8 +95,7 @@ form button {
 
 .pokemon img {
   border: 3px solid #ff595e;
-  border-radius: 50%;
-  height: 50px;
-  object-fit: none;
-  width: 50px;
+  border-radius: 10%;
+  height: 100px;
+  margin-top: 1em;
 }
